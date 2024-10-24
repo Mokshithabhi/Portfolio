@@ -221,7 +221,7 @@ export const projectDetails: ProjectDetails[] = [
     description: `IT is a todo app created by just using html, css, javascript, it includes the functionality of creating a todo, adding deleting a todo`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://mokshithabhi.github.io/todoprojectjs",
-    githubLink: "https://github.com/Electrifire-123/todo-do-app-js",
+    githubLink: "https://github.com/Mokshithabhi/todoprojectjs",
   },
   {
     id:"4",
