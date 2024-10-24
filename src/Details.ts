@@ -257,8 +257,8 @@ export const projectDetails: ProjectDetails[] = [
     image: projectImage6,
     description: `The current one you're looking at`,
     techstack: "HTML/CSS, TypeScript, React, React-Router-Dom, TailwindCSS",
-    previewLink: "https://portfolio-electrifire-123.vercel.app/",
-    githubLink: "https://github.com/Electrifire-123/portfolio",
+    previewLink: "https://portfolio-mokshiths-projects-d089286e.vercel.app/",
+    githubLink: "https://github.com/Mokshithabhi/Portfolio",
   },
 ];
 
