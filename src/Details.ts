@@ -35,6 +35,7 @@ const mongoDb = require("./assets/mongoDb.png");
 const websockets = require("./assets/websockets.webp");
 const projectImage6 = require("./assets/projects/Portfolio_Image.png");
 const projectGif1 = require("./assets/projects/CriptoHunter.png");
+const ResumeBuilder = require("./assets/projects/ResumeBuilder.png")
 
 type Logos = {
   logogradient: string;
@@ -199,12 +200,13 @@ export const projectDetails: ProjectDetails[] = [
   }, 
   {
     id:"2",
-    title: "Cripto Dashboad ",
-    image: projectGif1,
-    description: `A Crypto Dashboard is a web application designed to provide users with real-time insights into the cryptocurrency market. It serves as a central hub for tracking cryptocurrency prices, market trends, and portfolio performance, catering to both novice investors and experienced traders.`,
-    techstack: "HTML/CSS, JavaScript, React,Material UI,  React-Router-Dom",
-    previewLink: "https://cryptocurrency-123.netlify.app",
-    githubLink: "https://github.com/Mokshithabhi/newcrypto",
+    title: "Resume Builder",
+    image: ResumeBuilder,
+    description: `The AI Resume Builder is an intuitive, feature-rich web application designed to help users create professional, modern resumes effortlessly. Whether you're a fresh graduate or a seasoned professional, this tool enables you to craft personalized resumes that reflect your unique strengths, experience, and style.`,
+    techstack:
+      "HTML/CSS, Next js,Express js,Typescript, TailwindCSS,ShadCN, Clerk,stripe",
+    previewLink: "https://resume-builder-five-steel-28.vercel.app/",
+    githubLink: "https://github.com/Mokshithabhi/Resume-Builder",
   },
   {
     id:"3",
@@ -259,6 +261,15 @@ export const projectDetails: ProjectDetails[] = [
     techstack: "HTML/CSS, TypeScript, React, React-Router-Dom, TailwindCSS",
     previewLink: "https://portfolio-mokshiths-projects-d089286e.vercel.app/",
     githubLink: "https://github.com/Mokshithabhi/Portfolio",
+  },
+  {
+    id:"9",
+    title: "Cripto Dashboad ",
+    image: projectGif1,
+    description: `A Crypto Dashboard is a web application designed to provide users with real-time insights into the cryptocurrency market. It serves as a central hub for tracking cryptocurrency prices, market trends, and portfolio performance, catering to both novice investors and experienced traders.`,
+    techstack: "HTML/CSS, JavaScript, React,Material UI,  React-Router-Dom",
+    previewLink: "https://cryptocurrency-123.netlify.app",
+    githubLink: "https://github.com/Mokshithabhi/newcrypto",
   },
 ];
 
