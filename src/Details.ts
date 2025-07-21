@@ -36,6 +36,7 @@ const websockets = require("./assets/websockets.webp");
 const projectImage6 = require("./assets/projects/Portfolio_Image.png");
 const projectGif1 = require("./assets/projects/CriptoHunter.png");
 const ResumeBuilder = require("./assets/projects/ResumeBuilder.png")
+const ChatbotImage = require("./assets/projects/Chatbot_Image.png")
 
 type Logos = {
   logogradient: string;
@@ -189,7 +190,7 @@ type ProjectDetails = {
 };
 export const projectDetails: ProjectDetails[] = [
   {
-    id:"1",
+    id:"2",
     title: "Contract Management System",
     image: projectImage4,
     description: `This is a editor application which enables users to edit and draft the file in an editor on the web and then share it with another user, the admin will be having the eligible to share the file and give them the read and write access,The user will have the option to comment on the file and parallely the user can modify the file.`,
@@ -199,7 +200,7 @@ export const projectDetails: ProjectDetails[] = [
     githubLink: "https://github.com/Mokshithabhi/Basic_CMS",
   }, 
   {
-    id:"2",
+    id:"1",
     title: "Resume Builder",
     image: ResumeBuilder,
     description: `The AI Resume Builder is an intuitive, feature-rich web application designed to help users create professional, modern resumes effortlessly. Whether you're a fresh graduate or a seasoned professional, this tool enables you to craft personalized resumes that reflect your unique strengths, experience, and style.`,
@@ -210,6 +211,16 @@ export const projectDetails: ProjectDetails[] = [
   },
   {
     id:"3",
+    title: "ReactFlow-Chatbot ",
+    image: ChatbotImage,
+    description: `This project is a visual chatbot flow builder built using React and React Flow, allowing users to create conversational workflows by visually connecting nodes representing messages.`,
+    techstack:
+      "HTML/CSS, TailwindCSS,ReactJS,css",
+    previewLink: "https://react-flow-chatbot-tj3m.vercel.app/",
+    githubLink: "https://github.com/Mokshithabhi/React-flow-chatbot",
+  },
+  {
+    id:"4",
     title: "Digital Clock",
     image: projectImage3,
     description: `The project is made mostly to show my CSS skills and I have build the logics with JS`,
@@ -218,7 +229,7 @@ export const projectDetails: ProjectDetails[] = [
     githubLink: "https://github.com/Mokshithabhi/Digital-clock",
   },
   {
-    id:"4",
+    id:"10",
     title: "TO DO Application",
     image: projectImage2,
     description: `IT is a todo app created by just using html, css, javascript, it includes the functionality of creating a todo, adding deleting a todo`,
