@@ -35,8 +35,9 @@ const mongoDb = require("./assets/mongoDb.png");
 const websockets = require("./assets/websockets.webp");
 const projectImage6 = require("./assets/projects/Portfolio_Image.png");
 const projectGif1 = require("./assets/projects/CriptoHunter.png");
-const ResumeBuilder = require("./assets/projects/ResumeBuilder.png")
-const ChatbotImage = require("./assets/projects/Chatbot_Image.png")
+const ResumeBuilder = require("./assets/projects/ResumeBuilder.png");
+const ChatbotImage = require("./assets/projects/Chatbot_Image.png");
+const chatwithpdf = require("./assets/projects/Chatwithpdf.jpeg");
 
 type Logos = {
   logogradient: string;
@@ -115,7 +116,6 @@ export const workDetails: WorkDetails[] = [
 ];
 
 export const eduDetails: WorkDetails[] = [
-
   {
     Position: "Bachelor in Electronics and Communication",
     Company: `SiddaGanga Institute of Technology`,
@@ -130,7 +130,6 @@ export const eduDetails: WorkDetails[] = [
     Type: "Full Time",
     Duration: "June 2014 - Jun 2016",
   },
-
 ];
 
 type TechStack = {
@@ -180,7 +179,7 @@ export const techStackDetails: TechStack = {
 
 // Enter your Project Details here
 type ProjectDetails = {
-  id:string,
+  id: string;
   title: string;
   image: string;
   description: string;
@@ -190,7 +189,17 @@ type ProjectDetails = {
 };
 export const projectDetails: ProjectDetails[] = [
   {
-    id:"2",
+    id: "1",
+    title: "Chat with Pdf",
+    image: chatwithpdf,
+    description: `A Next.js application that lets users upload PDFs to Vercel Blob, processes them with LangChain + OpenAI embeddings, and enables interactive Q&A chat with the document using retrieval-augmented generation (RAG)`,
+    techstack:
+      "HTML/CSS, TailwindCSS,Next js,Typescript,ShadCN,OpenAI, Vercel Blob, LangChain",
+    previewLink: "https://chatwithpdf-nu.vercel.app/",
+    githubLink: "https://github.com/Mokshithabhi/chatpdf",
+  },
+  {
+    id: "2",
     title: "Contract Management System",
     image: projectImage4,
     description: `This is a editor application which enables users to edit and draft the file in an editor on the web and then share it with another user, the admin will be having the eligible to share the file and give them the read and write access,The user will have the option to comment on the file and parallely the user can modify the file.`,
@@ -198,9 +207,9 @@ export const projectDetails: ProjectDetails[] = [
       "HTML/CSS, React,Typescript, TailwindCSS, React-Router-Dom, TinyMCE Editor,ShadCN, Clerk,Liveblocks",
     previewLink: "https://basic-cms-sigma.vercel.app/",
     githubLink: "https://github.com/Mokshithabhi/Basic_CMS",
-  }, 
+  },
   {
-    id:"1",
+    id: "3",
     title: "Resume Builder",
     image: ResumeBuilder,
     description: `The AI Resume Builder is an intuitive, feature-rich web application designed to help users create professional, modern resumes effortlessly. Whether you're a fresh graduate or a seasoned professional, this tool enables you to craft personalized resumes that reflect your unique strengths, experience, and style.`,
@@ -209,18 +218,9 @@ export const projectDetails: ProjectDetails[] = [
     previewLink: "https://resume-builder-five-steel-28.vercel.app/",
     githubLink: "https://github.com/Mokshithabhi/Resume-Builder",
   },
+
   {
-    id:"3",
-    title: "ReactFlow-Chatbot ",
-    image: ChatbotImage,
-    description: `This project is a visual chatbot flow builder built using React and React Flow, allowing users to create conversational workflows by visually connecting nodes representing messages.`,
-    techstack:
-      "HTML/CSS, TailwindCSS,ReactJS,css",
-    previewLink: "https://react-flow-chatbot-tj3m.vercel.app/",
-    githubLink: "https://github.com/Mokshithabhi/React-flow-chatbot",
-  },
-  {
-    id:"4",
+    id: "4",
     title: "Digital Clock",
     image: projectImage3,
     description: `The project is made mostly to show my CSS skills and I have build the logics with JS`,
@@ -229,7 +229,16 @@ export const projectDetails: ProjectDetails[] = [
     githubLink: "https://github.com/Mokshithabhi/Digital-clock",
   },
   {
-    id:"10",
+    id: "9",
+    title: "Cripto Dashboad ",
+    image: projectGif1,
+    description: `A Crypto Dashboard is a web application designed to provide users with real-time insights into the cryptocurrency market. It serves as a central hub for tracking cryptocurrency prices, market trends, and portfolio performance, catering to both novice investors and experienced traders.`,
+    techstack: "HTML/CSS, JavaScript, React,Material UI,  React-Router-Dom",
+    previewLink: "https://cryptocurrency-123.netlify.app",
+    githubLink: "https://github.com/Mokshithabhi/newcrypto",
+  },
+  {
+    id: "10",
     title: "TO DO Application",
     image: projectImage2,
     description: `IT is a todo app created by just using html, css, javascript, it includes the functionality of creating a todo, adding deleting a todo`,
@@ -238,7 +247,7 @@ export const projectDetails: ProjectDetails[] = [
     githubLink: "https://github.com/Mokshithabhi/todoprojectjs",
   },
   {
-    id:"5",
+    id: "5",
     title: "React Blog App",
     image: projectImage1,
     description: `A blog app is a web application that allows users to create, manage, and share blog posts. It serves as a platform for writers, enthusiasts, and businesses to publish content, engage with readers, and build a community around shared interests.`,
@@ -247,7 +256,7 @@ export const projectDetails: ProjectDetails[] = [
     githubLink: "https://github.com/Mokshithabhi",
   },
   {
-    id:"6",
+    id: "6",
     title: "Memory Game",
     image: projectMemoroy,
     description: `This is the memory game where it helps to improve your memory`,
@@ -256,31 +265,22 @@ export const projectDetails: ProjectDetails[] = [
     githubLink: "https://github.com/Mokshithabhi/Memory",
   },
   {
-    id:"7",
+    id: "7",
     title: "TIC_TAC_TOE",
     image: projectTicTacToe,
     description: `This is a TIC_TAC_TOE game `,
     techstack: "Typescript,React,CSS",
     previewLink: "https://tic-tac-toe-blush-six.vercel.app/",
     githubLink: "https://github.com/Mokshithabhi/TicTacToe",
-  }, 
+  },
   {
-    id:"8",
+    id: "8",
     title: "Personal Portfolio",
     image: projectImage6,
     description: `The current one you're looking at`,
     techstack: "HTML/CSS, TypeScript, React, React-Router-Dom, TailwindCSS",
     previewLink: "https://portfolio-mokshiths-projects-d089286e.vercel.app/",
     githubLink: "https://github.com/Mokshithabhi/Portfolio",
-  },
-  {
-    id:"9",
-    title: "Cripto Dashboad ",
-    image: projectGif1,
-    description: `A Crypto Dashboard is a web application designed to provide users with real-time insights into the cryptocurrency market. It serves as a central hub for tracking cryptocurrency prices, market trends, and portfolio performance, catering to both novice investors and experienced traders.`,
-    techstack: "HTML/CSS, JavaScript, React,Material UI,  React-Router-Dom",
-    previewLink: "https://cryptocurrency-123.netlify.app",
-    githubLink: "https://github.com/Mokshithabhi/newcrypto",
   },
 ];
 
