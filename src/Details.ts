@@ -37,7 +37,7 @@ const projectImage6 = require("./assets/projects/Portfolio_Image.png");
 const projectGif1 = require("./assets/projects/CriptoHunter.png");
 const ResumeBuilder = require("./assets/projects/ResumeBuilder.png");
 const ChatbotImage = require("./assets/projects/Chatbot_Image.png");
-const chatwithpdf = require("./assets/projects/Chatwithpdf.png");
+const chatwithpdf = require("./assets/projects/chatwithpdf.png");
 
 type Logos = {
   logogradient: string;
