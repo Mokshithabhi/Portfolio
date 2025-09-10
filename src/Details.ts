@@ -59,7 +59,7 @@ export const personalDetails: Details = {
   tagline: "I build things for web",
   img: profile,
   about: `With over a 2 years and 10 months of experience as a Application developer, I have honed my expertise in a range of essential technologies, including ReactJS, JavaScript, TypeScript, CSS, Bootstrap, NodeJS, Tailwind CSS, SQL, MongoDB and HTML. I am well-versed in version control using GitHub, and proficient in project management tools such as Jira. In addition, I have experience working with performance monitoring tools like New Relic, and have even developed custom visualizations, also worked on backend where i have implemented RBAC , Microservices for the products.
-Currently contributing my skills at Cloudeq, I am entrusted with the frontend and backend responsibilities for a high-profile FinOps project. Through this experience, I have gained valuable insights into advanced concepts like Redux, context management, and the utilization of React Form Hooks, RBAC, developing API's. My dedication to creating seamless user interfaces drives me to excel in the UI developer role and also as an backend developer, bringing innovation and efficiency to your team.`,
+Currently contributing my skills at Cloudeq and LeadSquared, I am entrusted with the frontend and backend responsibilities for a high-profile FinOps project. Through this experience, I have gained valuable insights into advanced concepts like Redux, context management, and the utilization of React Form Hooks, RBAC, developing API's. My dedication to creating seamless user interfaces drives me to excel in the UI developer role and also as an backend developer, bringing innovation and efficiency to your team.`,
 };
 
 type URLS = {
@@ -71,7 +71,6 @@ type URLS = {
 export const socialMediaUrl: URLS = {
   linkdein: "https://www.linkedin.com/in/bhagavan-mokshith-703301199",
   github: "https://github.com/Mokshithabhi",
-  // twitter: "https://twitter.com/rahulyadavda",
   resume:
     "https://drive.google.com/drive/folders/1h0uaW-ywkW2Fa4Wfck5HzHTBjhxC_lcD",
 };
