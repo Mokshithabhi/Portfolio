@@ -87,6 +87,13 @@ type WorkDetails = {
 export const workDetails: WorkDetails[] = [
   {
     Position: "Software Engineer I",
+    Company: `LeadSquared`,
+    Location: "Bengaluru",
+    Type: "Full Time",
+    Duration: "Dec 24- May 2025",
+  },
+  {
+    Position: "Software Engineer I",
     Company: `CloudEQ`,
     Location: "Chandigarh",
     Type: "Full Time",
