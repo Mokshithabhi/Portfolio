@@ -199,7 +199,17 @@ export const projectDetails: ProjectDetails[] = [
     githubLink: "https://github.com/Mokshithabhi/chatpdf",
   },
   {
-    id: "2",
+    id: "11",
+    title: "Resume Builder",
+    image: ResumeBuilder,
+    description: `The AI Resume Builder is an intuitive, feature-rich web application designed to help users create professional, modern resumes effortlessly. Whether you're a fresh graduate or a seasoned professional, this tool enables you to craft personalized resumes that reflect your unique strengths, experience, and style.`,
+    techstack:
+      "HTML/CSS, Next js,Express js,Typescript, TailwindCSS,ShadCN, Clerk,stripe",
+    previewLink: "https://resume-builder-five-steel-28.vercel.app/",
+    githubLink: "https://github.com/Mokshithabhi/Resume-Builder",
+  },
+  {
+    id: "3",
     title: "Contract Management System",
     image: projectImage4,
     description: `This is a editor application which enables users to edit and draft the file in an editor on the web and then share it with another user, the admin will be having the eligible to share the file and give them the read and write access,The user will have the option to comment on the file and parallely the user can modify the file.`,
@@ -209,16 +219,14 @@ export const projectDetails: ProjectDetails[] = [
     githubLink: "https://github.com/Mokshithabhi/Basic_CMS",
   },
   {
-    id: "3",
-    title: "Resume Builder",
-    image: ResumeBuilder,
-    description: `The AI Resume Builder is an intuitive, feature-rich web application designed to help users create professional, modern resumes effortlessly. Whether you're a fresh graduate or a seasoned professional, this tool enables you to craft personalized resumes that reflect your unique strengths, experience, and style.`,
-    techstack:
-      "HTML/CSS, Next js,Express js,Typescript, TailwindCSS,ShadCN, Clerk,stripe",
-    previewLink: "https://resume-builder-five-steel-28.vercel.app/",
-    githubLink: "https://github.com/Mokshithabhi/Resume-Builder",
+    id: "2",
+    title: "ReactFlow-Chatbot ",
+    image: ChatbotImage,
+    description: `This project is a visual chatbot flow builder built using React and React Flow, allowing users to create conversational workflows by visually connecting nodes representing messages.`,
+    techstack: "HTML/CSS, TailwindCSS,ReactJS,css",
+    previewLink: "https://react-flow-chatbot-tj3m.vercel.app/",
+    githubLink: "https://github.com/Mokshithabhi/React-flow-chatbot",
   },
-
   {
     id: "4",
     title: "Digital Clock",
@@ -227,15 +235,6 @@ export const projectDetails: ProjectDetails[] = [
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://mokshithabhi.github.io/Digital-clock/",
     githubLink: "https://github.com/Mokshithabhi/Digital-clock",
-  },
-  {
-    id: "9",
-    title: "Cripto Dashboad ",
-    image: projectGif1,
-    description: `A Crypto Dashboard is a web application designed to provide users with real-time insights into the cryptocurrency market. It serves as a central hub for tracking cryptocurrency prices, market trends, and portfolio performance, catering to both novice investors and experienced traders.`,
-    techstack: "HTML/CSS, JavaScript, React,Material UI,  React-Router-Dom",
-    previewLink: "https://cryptocurrency-123.netlify.app",
-    githubLink: "https://github.com/Mokshithabhi/newcrypto",
   },
   {
     id: "10",
@@ -281,6 +280,15 @@ export const projectDetails: ProjectDetails[] = [
     techstack: "HTML/CSS, TypeScript, React, React-Router-Dom, TailwindCSS",
     previewLink: "https://portfolio-mokshiths-projects-d089286e.vercel.app/",
     githubLink: "https://github.com/Mokshithabhi/Portfolio",
+  },
+  {
+    id: "9",
+    title: "Cripto Dashboad ",
+    image: projectGif1,
+    description: `A Crypto Dashboard is a web application designed to provide users with real-time insights into the cryptocurrency market. It serves as a central hub for tracking cryptocurrency prices, market trends, and portfolio performance, catering to both novice investors and experienced traders.`,
+    techstack: "HTML/CSS, JavaScript, React,Material UI,  React-Router-Dom",
+    previewLink: "https://cryptocurrency-123.netlify.app",
+    githubLink: "https://github.com/Mokshithabhi/newcrypto",
   },
 ];
 
