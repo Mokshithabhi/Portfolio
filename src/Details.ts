@@ -23,6 +23,7 @@ const figma = require("./assets/techstack/figma.png");
 const typescript = require("./assets/techstack/typescript.png");
 // Porject Images
 const projectImage1 = require("./assets/projects/project1-image.png");
+const chessImage = require("./assets/projects/dramatic-chess.jpeg");
 const projectTicTacToe = require("./assets/projects/TicTacToe.png");
 const projectMemoroy = require("./assets/projects/memoryGameImage.png");
 const projectImage2 = require("./assets/projects/project2-image.png");
@@ -196,6 +197,16 @@ type ProjectDetails = {
 export const projectDetails: ProjectDetails[] = [
   {
     id: "1",
+    title: "Chess Game",
+    image: chessImage,
+    description: `Developed and deployed a real-time multiplayer chess application using React.js, TypeScript, Node.js, and WebSockets. The application allows two players to connect and compete in live chess matches with instant move synchronization.`,
+    techstack:
+      "HTML/CSS, TailwindCSS,React js,Typescript,ShadCN,Node js,WebSockets",
+    previewLink: "https://basic-chess-five.vercel.app/",
+    githubLink: "https://github.com/Mokshithabhi/BasicChess",
+  },
+  {
+    id: "2",
     title: "Chat with Pdf",
     image: chatwithpdf,
     description: `A Next.js application that lets users upload PDFs to Vercel Blob, processes them with LangChain + OpenAI embeddings, and enables interactive Q&A chat with the document using retrieval-augmented generation (RAG)`,
@@ -225,7 +236,7 @@ export const projectDetails: ProjectDetails[] = [
     githubLink: "https://github.com/Mokshithabhi/Basic_CMS",
   },
   {
-    id: "2",
+    id: "12",
     title: "ReactFlow-Chatbot ",
     image: ChatbotImage,
     description: `This project is a visual chatbot flow builder built using React and React Flow, allowing users to create conversational workflows by visually connecting nodes representing messages.`,
